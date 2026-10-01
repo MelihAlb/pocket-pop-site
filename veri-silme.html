@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocket Pop — Veri Silme / Data Deletion</title>
+<meta name="description" content="Pocket Pop (ALB Studio) için veri silme talebi: hangi veriler siliniyor, hangileri saklanıyor, nasıl talep edilir.">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0a0d14; --surface: #131a28; --line: #26314a;
+    --text: #eaf0fb; --dim: #93a1b8; --accent: #4fd1ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text); padding: 0 16px 80px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { padding: 40px 0 8px; }
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -.02em; }
+  .sub { color: var(--dim); margin: 0 0 22px; font-size: 14px; }
+  h2 { font-size: 19px; margin: 40px 0 10px; padding-top: 22px; border-top: 1px solid var(--line); }
+  h3 { font-size: 15px; margin: 26px 0 6px; color: var(--accent); }
+  p, li { color: #d6dfee; }
+  ul, ol { padding-left: 20px; }
+  li { margin: 6px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--line); padding: 9px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--surface); font-weight: 700; }
+  .steps { background: var(--surface); border-left: 3px solid var(--accent); padding: 14px 16px 14px 34px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  .steps li { margin: 9px 0; }
+  .langs { display: flex; gap: 8px; margin-bottom: 26px; }
+  .langs a { color: var(--dim); text-decoration: none; font-size: 13px; font-weight: 700;
+    border: 1px solid var(--line); border-radius: 999px; padding: 5px 13px; }
+  a { color: var(--accent); }
+  footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--dim); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Pocket Pop — Veri Silme</h1>
+  <p class="sub">ALB Studio · com.melihalb.pocketpop<br>Son güncelleme: 1 Ekim 2026</p>
+  <nav class="langs"><a href="#tr">Türkçe</a><a href="#en">English</a><a href="privacy.html">Gizlilik Politikası</a></nav>
+</header>
+
+<h2 id="tr">Türkçe</h2>
+
+<p>Bu sayfa, <b>ALB Studio</b> tarafından geliştirilen <b>Pocket Pop</b> oyunu içindir.
+Verilerinizin silinmesini nasıl talep edeceğinizi, neyin silindiğini ve neyin ne kadar
+süreyle saklandığını anlatır.</p>
+
+<h3>Nasıl talep edilir</h3>
+
+<p>Üç yolu var. İlk ikisi anında ve kendi elinizde, üçüncüsü için bize yazmanız gerekiyor.</p>
+
+<div class="steps">
+<ol>
+  <li><b>Oyunun içinden.</b> Pocket Pop'u açın &rsaquo; başlık ekranının sağ üstündeki
+      <b>dişli</b> simgesine dokunun &rsaquo; <b>Hesabını sil</b> &rsaquo; <b>Sil</b>.
+      Bu, aşağıdaki tabloda "cihazda tutulanlar" diye geçen her şeyi anında siler.</li>
+  <li><b>Uygulamayı kaldırarak.</b> Pocket Pop'u telefonunuzdan kaldırın, ya da
+      <i>Ayarlar &rsaquo; Uygulamalar &rsaquo; Pocket Pop &rsaquo; Depolama &rsaquo; Verileri temizle</i>
+      deyin. Cihazdaki her şey gider.</li>
+  <li><b>Bize yazarak.</b> <a href="mailto:alb.studiolab@gmail.com">alb.studiolab@gmail.com</a>
+      adresine, konu satırına <b>"Veri silme talebi"</b> yazarak e-posta gönderin.
+      Talebi <b>30 gün içinde</b> yerine getirir ve size yazılı olarak dönüş yaparız.
+      Oyun hesap açmanızı istemediği için sizi tanımlayan bir kaydımız yok; bu yolu
+      yalnızca istatistik kayıtlarının silinmesini istiyorsanız kullanmanız gerekir.</li>
+</ol>
+</div>
+
+<h3>Ne siliniyor, ne saklanıyor</h3>
+
+<table>
+  <tr><th>Veri</th><th>Nerede</th><th>Ne oluyor</th></tr>
+  <tr>
+    <td>En yüksek skor, macera ilerlemesi, canlar, düello rakipleri ve kayıtları,
+        bu cihazın düello kimliği</td>
+    <td>Yalnızca telefonunuzda</td>
+    <td><b>Silinir</b> — oyun içindeki silme işleminde ya da uygulamayı kaldırdığınızda,
+        anında. Hiçbiri sunucuya gönderilmez.</td>
+  </tr>
+  <tr>
+    <td>Dil, ses, müzik, titreşim ve istatistik tercihleri</td>
+    <td>Yalnızca telefonunuzda</td>
+    <td><b>Oyun içi silmede korunur</b> — bunlar oyunun nasıl davranacağına dair
+        sizin verdiğiniz kararlar, verileriniz değil. Özellikle istatistik anahtarı:
+        kapatmış birine silme talebinde onu geri açmak, talebin tam tersi olurdu.
+        Uygulamayı kaldırırsanız bunlar da gider.</td>
+  </tr>
+  <tr>
+    <td>Canlı düello odası: anonim oturum kimliği, tahta tohumu, tur numarası,
+        oynanan hamle, puan, zaman damgaları</td>
+    <td>Firebase Realtime Database (Avrupa, europe-west1)</td>
+    <td><b>Maç biter bitmez silinir.</b> Bağlantınız koparsa sunucu kaydı kendisi siler.
+        Kimse katılmazsa oda <b>2 dakika</b> sonra geçersiz olur. <b>Ek saklama yoktur.</b></td>
+  </tr>
+  <tr>
+    <td>Anonim kullanım istatistikleri: uygulamanın açılması, koşu ve bölüm
+        başlangıç/bitişleri, hatalar; yanlarında Google'ın eklediği cihaz modeli,
+        işletim sistemi sürümü, ülke ve uygulamaya özel rastgele bir kimlik</td>
+    <td>Google Analytics (Firebase)</td>
+    <td>Google'ın bu proje için ayarlı saklama süresi boyunca tutulur
+        (<b>en fazla 14 ay</b>), sonra otomatik silinir. Toplanmasını
+        <b>oyunun Ayarlar menüsünden kapatabilirsiniz</b>; kapalıyken hiçbir olay
+        gönderilmez. Geçmiş kayıtların silinmesi için yukarıdaki 3. yolu kullanın.</td>
+  </tr>
+  <tr>
+    <td>Reklam kimliği (Android Advertising ID), IP adresi, genel cihaz bilgileri</td>
+    <td>Google AdMob</td>
+    <td>Bize ulaşmaz, doğrudan Google tarafından işlenir — dolayısıyla bizde silinecek
+        bir kaydı yoktur. Kimliği <i>Ayarlar &rsaquo; Google &rsaquo; Reklamlar</i>
+        bölümünden sıfırlayabilir veya silebilirsiniz. Google'ın saklama politikası:
+        <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></td>
+  </tr>
+</table>
+
+<p>Oyun; adınızı, e-postanızı, telefon numaranızı, rehberinizi, fotoğraflarınızı veya
+konumunuzu hiçbir şekilde toplamaz. Hesap açmanızı istemez. Ayrıntılar
+<a href="privacy.html">gizlilik politikasında</a>.</p>
+
+<h2 id="en">English</h2>
+
+<p>This page is for <b>Pocket Pop</b>, a game made by <b>ALB Studio</b>. It explains how to
+request deletion of your data, what is deleted, and what is kept and for how long.</p>
+
+<h3>How to request deletion</h3>
+
+<p>There are three ways. The first two are immediate and entirely in your hands; the third
+needs an email to us.</p>
+
+<div class="steps">
+<ol>
+  <li><b>From inside the game.</b> Open Pocket Pop &rsaquo; tap the <b>gear</b> icon at the
+      top right of the title screen &rsaquo; <b>Delete your account</b> &rsaquo; <b>Delete</b>.
+      This immediately deletes everything listed as "on your phone" in the table below.</li>
+  <li><b>By uninstalling.</b> Remove Pocket Pop from your phone, or go to
+      <i>Settings &rsaquo; Apps &rsaquo; Pocket Pop &rsaquo; Storage &rsaquo; Clear data</i>.
+      Everything on the device is gone.</li>
+  <li><b>By writing to us.</b> Email
+      <a href="mailto:alb.studiolab@gmail.com">alb.studiolab@gmail.com</a> with
+      <b>"Data deletion request"</b> in the subject line. We will action it
+      <b>within 30 days</b> and reply in writing. The game never asks you to create an
+      account, so we hold no record that identifies you; use this route only if you want
+      past analytics records deleted.</li>
+</ol>
+</div>
+
+<h3>What is deleted, and what is kept</h3>
+
+<table>
+  <tr><th>Data</th><th>Where</th><th>What happens</th></tr>
+  <tr>
+    <td>Best score, Adventure progress, lives, duel opponents and records,
+        this device's duel identity</td>
+    <td>On your phone only</td>
+    <td><b>Deleted</b> — immediately, by the in-game deletion or by uninstalling.
+        None of it is ever sent to a server.</td>
+  </tr>
+  <tr>
+    <td>Language, sound, music, haptics and statistics preferences</td>
+    <td>On your phone only</td>
+    <td><b>Kept by the in-game deletion</b> — these are choices you made about how the
+        app behaves, not data about you. The statistics switch especially: turning
+        collection back on for somebody who had turned it off would be the opposite of
+        honouring a deletion request. Uninstalling removes these too.</td>
+  </tr>
+  <tr>
+    <td>Live duel room: anonymous sign-in id, board seed, turn number, move played,
+        score, timestamps</td>
+    <td>Firebase Realtime Database (Europe, europe-west1)</td>
+    <td><b>Deleted as soon as the match ends.</b> If your connection drops, the server
+        deletes it for you. If nobody joins, the room expires after <b>2 minutes</b>.
+        <b>Nothing is retained.</b></td>
+  </tr>
+  <tr>
+    <td>Anonymous usage statistics: app opening, run and level starts and results,
+        errors; alongside the device model, OS version, country and a random
+        app-specific identifier that Google attaches</td>
+    <td>Google Analytics (Firebase)</td>
+    <td>Kept for the retention period configured for this project
+        (<b>no more than 14 months</b>), then deleted automatically. You can
+        <b>switch collection off in the game's Settings</b>; while it is off, no events
+        are sent. To have past records deleted, use route 3 above.</td>
+  </tr>
+  <tr>
+    <td>Advertising ID, IP address, general device information</td>
+    <td>Google AdMob</td>
+    <td>Never reaches us; processed by Google directly, so we hold no record to delete.
+        You can reset or delete the identifier in <i>Settings &rsaquo; Google &rsaquo;
+        Ads</i>. Google's retention policy:
+        <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></td>
+  </tr>
+</table>
+
+<p>The game never collects your name, email, phone number, contacts, photos or location,
+and never asks you to create an account. Full details in the
+<a href="privacy.html">privacy policy</a>.</p>
+
+<footer>
+  Pocket Pop · ALB Studio · com.melihalb.pocketpop ·
+  <a href="mailto:alb.studiolab@gmail.com">alb.studiolab@gmail.com</a>
+</footer>
+
+</main>
+</body>
+</html>
